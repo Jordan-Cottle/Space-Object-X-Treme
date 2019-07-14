@@ -1,9 +1,9 @@
 /// @description Capture or DIE
 if(state == ballStates.deadly){
-	room_restart();
+	instance_destroy(other);
 }
 
 state = ballStates.captured;
 alarm[0] = capturedDuration;
-direction = other.direction + random_range(-15, 15);
+direction = other.direction;
 speed = other.force;

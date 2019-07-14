@@ -1,4 +1,4 @@
-/// @description Setup
+/// @description Setup enum
 
 enum ballStates {
 	neutral,
@@ -7,6 +7,3 @@ enum ballStates {
 }
 
 
-direction = point_direction(x,y, random(room_width), random(room_height));
-
-speed = 3;

@@ -2,4 +2,3 @@
 
 direction = point_direction(x, y, obj_ball.x, obj_ball.y);
 
-alarm[1] = difficultyTimer*60;

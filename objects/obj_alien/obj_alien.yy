@@ -35,16 +35,6 @@
             "m_owner": "ce34f262-51e4-429f-a3f4-03d17dc0af43"
         },
         {
-            "id": "7f3d0963-8295-4a4a-af01-e0749eec03c1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "ce34f262-51e4-429f-a3f4-03d17dc0af43"
-        },
-        {
             "id": "2ccb064e-b258-4e17-b3ee-5a03047499f5",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 2,
+            "m_owner": "ce34f262-51e4-429f-a3f4-03d17dc0af43"
+        },
+        {
+            "id": "fea181ff-2678-4db7-a16b-65249068dc35",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
             "m_owner": "ce34f262-51e4-429f-a3f4-03d17dc0af43"
         }
     ],
@@ -208,9 +208,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "1",
             "varName": "forceIncrement",
             "varType": 0
+        },
+        {
+            "id": "0702c733-8bad-458b-ab1d-86bdc6d8329c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "outsideRoomBoost",
+            "varType": 1
         },
         {
             "id": "631e12b5-4547-4042-84c0-a3c77ef8e4f2",
@@ -224,6 +238,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "recentHit",
+            "varType": 3
+        },
+        {
+            "id": "e3ba0ef4-052a-40e2-b294-14d128f3f71a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "outsideRoom",
             "varType": 3
         }
     ],

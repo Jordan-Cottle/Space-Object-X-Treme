@@ -1,13 +1,14 @@
 /// @description Controls
-
+if(!obj_controller.gameStarted){ //don't move until game is started
+	return;	
+}
 
 var hAxis = gamepad_axis_value(gamePadIndex, gp_axislh);
 var vAxis = gamepad_axis_value(gamePadIndex, gp_axislv);
-var deadZone = .1;
 
-if(abs(hAxis) > deadZone || abs(vAxis) > deadZone)
+if(abs(hAxis) || abs(vAxis))
 {
-	direction = point_direction(x, y, x+hAxis, y+vAxis);
+	direction = point_direction(0, 0, hAxis, vAxis);
 	speed = baseSpeed;
 }
 else{
@@ -27,10 +28,4 @@ if(triggerDown){
 	force = 15;
 }else{
 	force = velocity * .75;	
-}
-
-
-
-if(gamepad_button_check_pressed(gamePadIndex, gp_start)){
-	game_end();	
 }
