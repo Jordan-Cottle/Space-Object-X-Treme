@@ -1,8 +1,6 @@
-/// @description Move towards ball
+/// @description Move towards ball, apply friction
 
-vspeed /= 1 + current_time / power(10, 8);
-hspeed /= 1 + current_time / power(10, 8);
+vspeed /= slowRatio;
+hspeed /= slowRatio;
 
 floatTowards(self, obj_ball, acceleration, maxSpeed);
-
-acceleration += current_time / power(10, 8);

@@ -26,5 +26,11 @@ var triggerDown = gamepad_button_check(gamePadIndex, gp_shoulderrb) || gamepad_b
 if(triggerDown){
 	force = 15;
 }else{
-	force = velocity - 1;	
+	force = velocity * .75;	
+}
+
+
+
+if(gamepad_button_check_pressed(gamePadIndex, gp_start)){
+	game_end();	
 }
