@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ca94586-e6ae-44de-aec5-426a5113c241",
+            "Value": {
+                "id": "72f9d29c-66cc-4331-9a36-45c93503e102",
+                "resourcePath": "sprites\\spr_ballDeadly\\spr_ballDeadly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ec70cd3-8178-4d86-bb30-67b9fb5238b7",
             "Value": {
                 "id": "735ceecf-01bf-4a74-9360-086cc94a9ee7",

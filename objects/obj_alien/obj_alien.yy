@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".05",
+            "value": ".1",
             "varName": "acceleration",
             "varType": 0
         },
@@ -100,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": "25",
             "varName": "strength",
             "varType": 0
         },
@@ -117,6 +117,20 @@
             "value": "0",
             "varName": "recentHit",
             "varType": 3
+        },
+        {
+            "id": "4b472f17-6942-4a90-af2b-d609e8dd2279",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "hitDelay",
+            "varType": 0
         }
     ],
     "solid": false,

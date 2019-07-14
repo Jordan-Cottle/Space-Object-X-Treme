@@ -7,12 +7,11 @@ var maxSpeed = argument3;
 
 with(source){
 	var angle = point_direction(x, y, target.x, target.y);
-	show_debug_message(string(dsin(angle)));
-	
-	vspeed += -dsin(angle) * increment;
-
 
 	// Calculate vspeed
+	vspeed += -dsin(angle) * increment;
+
+	// Calculate hspeed
 	hspeed += dcos(angle) * increment;
 	
 	vspeed = clamp(vspeed, -maxSpeed, maxSpeed);
