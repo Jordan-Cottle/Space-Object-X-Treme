@@ -101,7 +101,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "25",
-            "varName": "strength",
+            "varName": "force",
             "varType": 0
         },
         {

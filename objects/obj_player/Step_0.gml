@@ -1,20 +1,30 @@
 /// @description Controls
 
 
-var haxis = gamepad_axis_value(gamePadIndex, gp_axislh);
-var vaxis = gamepad_axis_value(gamePadIndex, gp_axislv);
-direction = point_direction(0, 0, haxis, vaxis);
-speed = point_distance(0 ,0, haxis, vaxis) * 5; // unit vector hacks
+var hAxis = gamepad_axis_value(gamePadIndex, gp_axislh);
+var vAxis = gamepad_axis_value(gamePadIndex, gp_axislv);
+var deadZone = .1;
 
-if(gamepad_button_check(gamePadIndex, gp_shoulderrb)){
-	force = 15;
-}else{
-	force = 1.5;	
+if(abs(hAxis) > deadZone || abs(vAxis) > deadZone)
+{
+	direction = point_direction(x, y, x+hAxis, y+vAxis);
+	speed = baseSpeed;
+}
+else{
+	speed = 0;
 }
 
-if(gamepad_button_check(gamePadIndex, gp_shoulderr)){
-	velocity += .05;
-	speed = velocity + 2;
+var triggerDown = gamepad_button_check(gamePadIndex, gp_shoulderrb) || gamepad_button_check(gamePadIndex, gp_shoulderlb);
+if(triggerDown){
+	force = 15;
 }else{
-	velocity = 5;	
+	force = baseSpeed - 1;	
+}
+
+var bumperDown = gamepad_button_check(gamePadIndex, gp_shoulderr) || gamepad_button_check(gamePadIndex, gp_shoulderl);
+if(bumperDown){
+	velocity += boostOverTime;
+	speed = velocity + boost;
+}else{
+	velocity = baseSpeed;	
 }

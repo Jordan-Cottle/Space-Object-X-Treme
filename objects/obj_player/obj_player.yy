@@ -103,6 +103,48 @@
             "value": "5",
             "varName": "velocity",
             "varType": 0
+        },
+        {
+            "id": "68586c59-d3f0-48dd-8048-1aab0f776d6f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "baseSpeed",
+            "varType": 0
+        },
+        {
+            "id": "1a90889c-ebe0-447f-88bf-f37c0964fd3b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.5",
+            "varName": "boost",
+            "varType": 0
+        },
+        {
+            "id": "ffd2c0c9-e7a4-439e-9abc-0594e1e806f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.075",
+            "varName": "boostOverTime",
+            "varType": 0
         }
     ],
     "solid": false,

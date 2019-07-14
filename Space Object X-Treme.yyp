@@ -269,11 +269,20 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fadaae4b-9f04-42d8-a166-d1601f0a0097",
+            "Value": {
+                "id": "a22e958b-16e8-48cf-8bd7-dbf664a7798b",
+                "resourcePath": "scripts\\rocketBoost\\rocketBoost.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "33a10721-dd13-45e7-9159-7f88ea8a9dad",
-        "58dfa2f1-d538-47cf-8b00-6a94f8a46cc1"
+        "58dfa2f1-d538-47cf-8b00-6a94f8a46cc1",
+        "fadaae4b-9f04-42d8-a166-d1601f0a0097"
     ],
     "tutorial": ""
 }
