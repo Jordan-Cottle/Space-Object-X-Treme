@@ -1,5 +1,4 @@
 /// @description Set direction and speed
 
 direction = random(360);
-
-speed = 4;
+gamepad_set_axis_deadzone(0, .1);
