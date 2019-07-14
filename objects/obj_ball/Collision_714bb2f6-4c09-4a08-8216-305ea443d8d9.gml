@@ -1,4 +1,4 @@
-/// @description Capture ot DIE
+/// @description Capture or DIE
 if(state == ballStates.deadly){
 	room_restart();
 }

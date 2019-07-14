@@ -14,17 +14,17 @@ else{
 	speed = 0;
 }
 
-var triggerDown = gamepad_button_check(gamePadIndex, gp_shoulderrb) || gamepad_button_check(gamePadIndex, gp_shoulderlb);
-if(triggerDown){
-	force = 15;
-}else{
-	force = baseSpeed - 1;	
-}
-
 var bumperDown = gamepad_button_check(gamePadIndex, gp_shoulderr) || gamepad_button_check(gamePadIndex, gp_shoulderl);
 if(bumperDown){
 	velocity += boostOverTime;
 	speed = velocity + boost;
 }else{
 	velocity = baseSpeed;	
+}
+
+var triggerDown = gamepad_button_check(gamePadIndex, gp_shoulderrb) || gamepad_button_check(gamePadIndex, gp_shoulderlb);
+if(triggerDown){
+	force = 15;
+}else{
+	force = velocity - 1;	
 }
