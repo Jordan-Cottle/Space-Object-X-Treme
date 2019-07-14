@@ -1,9 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-//Test of GIT changes
-
+/// @description Make ball deadly
 if(!other.recentHit) {
-	deadly = true;
+	state = ballStates.deadly;
 	alarm[0] = deadlyDuration;
 	direction = point_direction(x, y, obj_player.x, obj_player.y) + random_range(-5, 5);
 	speed = other.force;

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "13719bed-e186-4cfe-8dfd-70fa996d3dc8",
+            "Value": {
+                "id": "7e02da4e-9c06-44b2-9c24-f422c81d1612",
+                "resourcePath": "sprites\\spr_ballNeutral\\spr_ballNeutral.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c10e454-6370-407f-b702-835cf5b99d4f",
             "Value": {
                 "id": "4ff1ab6a-8243-4c26-a3c3-03dc5ffc1d4a",
@@ -76,6 +84,14 @@
                 "id": "df03ad58-f85e-400b-8573-12166a2f7db7",
                 "resourcePath": "scripts\\floatTowards\\floatTowards.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3e1ba002-9612-4509-947e-3c202c64c3f0",
+            "Value": {
+                "id": "cabc6130-e395-4264-bb37-2e6a21f94240",
+                "resourcePath": "sprites\\spr_ballCaptured\\spr_ballCaptured.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

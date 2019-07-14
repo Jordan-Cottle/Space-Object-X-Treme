@@ -1,5 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Setup
+
+enum ballStates {
+	neutral,
+	deadly,
+	captured
+}
 
 
 direction = point_direction(x,y, random(room_width), random(room_height));

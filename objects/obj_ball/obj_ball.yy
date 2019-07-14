@@ -93,20 +93,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "8433431e-892f-4b39-a216-e2eb38e77916",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "deadly",
-            "varType": 3
-        },
-        {
             "id": "128037fd-d58b-49a5-978d-f32b8ea8f54d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -116,7 +102,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "spr_ball",
+            "value": "spr_ballNeutral",
             "varName": "normalSprite",
             "varType": 5
         },
@@ -147,6 +133,48 @@
             "value": "90",
             "varName": "deadlyDuration",
             "varType": 1
+        },
+        {
+            "id": "0bdb10e5-61be-445b-a204-648d8504997b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_ballCaptured",
+            "varName": "capturedSprite",
+            "varType": 5
+        },
+        {
+            "id": "6af64b4a-45bd-4d1c-9447-23e447b55782",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "state",
+            "varType": 1
+        },
+        {
+            "id": "fe8b3257-9ded-4dd4-aa3e-bca0fb4c0e38",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "capturedDuration",
+            "varType": 0
         }
     ],
     "solid": false,

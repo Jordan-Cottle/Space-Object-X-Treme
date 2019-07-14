@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description Slow down slowly
 
 speed *= .995

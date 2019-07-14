@@ -1,2 +1,2 @@
-/// @description Deadly Time-out
-deadly = false;
+/// @description Return to Neutral State
+state = ballStates.neutral;
