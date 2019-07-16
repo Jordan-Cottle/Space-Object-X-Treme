@@ -6,7 +6,7 @@
     "children": [
         "970a8337-40ac-4aee-b0d0-f4ed3e414847",
         "80be1728-f455-4808-884d-b9ed36bd0415",
-        "e25755af-d502-4f26-b1e9-ebd8857ed2b5"
+        "2e66c53e-361c-4b58-9419-7c824442169a"
     ],
     "filterType": "GMSprite",
     "folderName": "Spaceships",

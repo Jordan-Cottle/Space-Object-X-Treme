@@ -155,6 +155,34 @@
             "value": "0.075",
             "varName": "boostOverTime",
             "varType": 0
+        },
+        {
+            "id": "b67370c8-6d61-4479-8a2d-69bedc7345ed",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_spaceshipIdle",
+            "varName": "idle",
+            "varType": 5
+        },
+        {
+            "id": "3bca20bf-3a70-4006-b934-301e55443306",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_spaceshipMoving",
+            "varName": "moving",
+            "varType": 5
         }
     ],
     "solid": false,

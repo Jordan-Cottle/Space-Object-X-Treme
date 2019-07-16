@@ -10,9 +10,11 @@ if(abs(hAxis) || abs(vAxis))
 {
 	direction = point_direction(0, 0, hAxis, vAxis);
 	speed = baseSpeed;
+	sprite_index = moving;
 }
 else{
 	speed = 0;
+	sprite_index = idle;
 }
 
 var bumperDown = gamepad_button_check(gamePadIndex, gp_shoulderr) || gamepad_button_check(gamePadIndex, gp_shoulderl);

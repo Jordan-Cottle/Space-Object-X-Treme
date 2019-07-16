@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2e66c53e-361c-4b58-9419-7c824442169a",
+            "Value": {
+                "id": "38c7075e-2cdc-4e3b-b906-161f9e3936f9",
+                "resourcePath": "sprites\\spr_spaceshipMoving\\spr_spaceshipMoving.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33a10721-dd13-45e7-9159-7f88ea8a9dad",
             "Value": {
                 "id": "df03ad58-f85e-400b-8573-12166a2f7db7",
@@ -108,6 +116,14 @@
                 "id": "cabc6130-e395-4264-bb37-2e6a21f94240",
                 "resourcePath": "sprites\\spr_ballCaptured\\spr_ballCaptured.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43ce98ea-c7e6-42d4-860d-fa48bf868747",
+            "Value": {
+                "id": "d474ec81-6b34-4f11-9f4a-044f52307153",
+                "resourcePath": "sounds\\snd_bitTune\\snd_bitTune.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -218,7 +234,7 @@
             "Key": "80be1728-f455-4808-884d-b9ed36bd0415",
             "Value": {
                 "id": "fb729e8f-5237-44d3-bec4-7eeaf7ab468d",
-                "resourcePath": "sprites\\spr_spaceship1\\spr_spaceship1.yy",
+                "resourcePath": "sprites\\spr_spaceshipIdle\\spr_spaceshipIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -364,14 +380,6 @@
                 "id": "5e6ca947-d197-4388-8586-d1a7bc8beb88",
                 "resourcePath": "views\\e0c00727-e65c-4017-9698-38af440a2802.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e25755af-d502-4f26-b1e9-ebd8857ed2b5",
-            "Value": {
-                "id": "5f7c5f82-249e-407f-9d45-be8e07defe6e",
-                "resourcePath": "sprites\\spr_spaceship2\\spr_spaceship2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
