@@ -15,26 +15,6 @@
             "m_owner": "73623091-2659-4e45-9c0b-4939c7516253"
         },
         {
-            "id": "386a878b-0835-4007-9e9f-31bd470b5f0c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "73623091-2659-4e45-9c0b-4939c7516253"
-        },
-        {
-            "id": "6e20d70e-5ded-4e56-ad2c-9f35afc115f8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 7,
-            "m_owner": "73623091-2659-4e45-9c0b-4939c7516253"
-        },
-        {
             "id": "99f3e10d-ecd7-4266-83e4-9d7657d7a510",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 1,
+            "m_owner": "73623091-2659-4e45-9c0b-4939c7516253"
+        },
+        {
+            "id": "807ba55e-3a3a-4853-aea1-a48da623bad4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
             "m_owner": "73623091-2659-4e45-9c0b-4939c7516253"
         }
     ],
@@ -124,7 +114,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "6",
             "varName": "baseSpeed",
             "varType": 0
         },
@@ -138,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "4",
             "varName": "boost",
             "varType": 0
         },
@@ -152,7 +142,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.075",
+            "value": "0.15",
             "varName": "boostOverTime",
             "varType": 0
         },
@@ -183,6 +173,48 @@
             "value": "spr_spaceshipMoving",
             "varName": "moving",
             "varType": 5
+        },
+        {
+            "id": "32baf9fd-3e20-4bee-8091-dcf55f9cc877",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$00FF0019",
+            "varName": "color",
+            "varType": 7
+        },
+        {
+            "id": "9f0fa539-fc0c-4c1b-88dc-6539b2e1c88b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "maxSpeed",
+            "varType": 0
+        },
+        {
+            "id": "95fb3c95-e155-48c1-8c51-983117871ad6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameStarted",
+            "varType": 3
         }
     ],
     "solid": false,

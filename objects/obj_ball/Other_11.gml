@@ -1,5 +1,7 @@
 /// @description Game Start
 
-direction = point_direction(x,y, random(room_width), random(room_height));
+direction = random(360);
 
-speed = 3;
+velocity = 5;
+
+gameStarted = true;

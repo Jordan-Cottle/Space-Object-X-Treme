@@ -2,5 +2,5 @@
  playersAlive--;
  
  if(!playersAlive){
-	room_restart();	 
+	room_goto(room_first);	 
  }

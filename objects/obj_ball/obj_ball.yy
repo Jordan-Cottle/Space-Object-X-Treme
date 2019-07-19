@@ -15,16 +15,6 @@
             "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
         },
         {
-            "id": "48113c35-56c5-4e47-b574-e60b5fbf05b6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 7,
-            "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
-        },
-        {
             "id": "c9ef14aa-5c94-48cd-bc88-45441e1ca4fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -83,6 +73,16 @@
             "enumb": 11,
             "eventtype": 7,
             "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
+        },
+        {
+            "id": "7c218061-e072-472e-afaa-b6235077900e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -140,7 +140,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "90",
+            "value": "30",
             "varName": "deadlyDuration",
             "varType": 1
         },
@@ -185,9 +185,79 @@
             "value": "15",
             "varName": "capturedDuration",
             "varType": 0
+        },
+        {
+            "id": "9057dd7a-9e68-4015-a3fe-b096affe225f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "maxStep",
+            "varType": 0
+        },
+        {
+            "id": "4cf3474a-67a9-4634-b8a5-716c5aa3e99a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "velocity",
+            "varType": 0
+        },
+        {
+            "id": "25d49510-7e3d-4323-86ae-4860b2f32dae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "debug",
+            "varType": 3
+        },
+        {
+            "id": "52b4c55a-c9fd-43d8-a2b2-1a45a5732168",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.005",
+            "varName": "resistance",
+            "varType": 0
+        },
+        {
+            "id": "aaffd9ff-d6cb-428a-ad3b-480e434f5b92",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameStarted",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "61582a53-f288-46c4-8627-8fdbf01ebf89",
+    "spriteId": "13719bed-e186-4cfe-8dfd-70fa996d3dc8",
     "visible": true
 }

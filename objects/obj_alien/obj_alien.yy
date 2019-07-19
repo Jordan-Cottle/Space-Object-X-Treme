@@ -253,6 +253,20 @@
             "value": "0",
             "varName": "outsideRoom",
             "varType": 3
+        },
+        {
+            "id": "7fe779ae-4df0-4660-8c01-b9b88073d77f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameStarted",
+            "varType": 3
         }
     ],
     "solid": false,

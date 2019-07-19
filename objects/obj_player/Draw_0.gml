@@ -1,5 +1,3 @@
-/// @description Turn sprite to face direction
+/// @description Draw sprite in direction with color
 
-image_angle = direction;
-
-draw_self();
+draw_sprite_ext(sprite_index, 0, x, y, 1, 1, direction, color, 1);

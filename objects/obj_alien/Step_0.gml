@@ -1,5 +1,5 @@
 /// @description Move towards ball, apply friction
-if(!obj_controller.gameStarted){ //don't move until game is started
+if(!gameStarted){ //don't move until game is started
 	return;	
 }
 
