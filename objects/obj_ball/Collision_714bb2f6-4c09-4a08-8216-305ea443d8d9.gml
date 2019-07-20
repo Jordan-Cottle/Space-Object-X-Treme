@@ -1,5 +1,6 @@
 /// @description Capture or DIE
 if(state == ballStates.deadly){
+	audio_play_sound(snd_deathExplosion,1,0)
 	instance_destroy(other);
 	direction += 180; // bounce off player
 	var sparks = irandom(25) + 15;
