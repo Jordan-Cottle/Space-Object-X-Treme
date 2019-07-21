@@ -7,8 +7,8 @@ if(!closestPlayer){ // everyone's dead, game will restart soon
 }
 
 if(!other.recentHit) {
+	audio_play_sound(snd_ballBounce,1,0);
 	state = ballStates.deadly;
-	
 	direction = point_direction(x, y, closestPlayer.x, closestPlayer.y) + random_range(-5, 5);
 	velocity += other.force;
 	alarm[0] = deadlyDuration + velocity;
