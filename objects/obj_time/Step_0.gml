@@ -1,3 +1,5 @@
 /// @description getting time elapsed in seconds
 
-time = (get_timer()/1000000);
+if(delta_time%1=0){
+time++;	
+}
