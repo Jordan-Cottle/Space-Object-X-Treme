@@ -82,7 +82,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".1",
+            "value": ".2",
             "varName": "acceleration",
             "varType": 0
         },
@@ -96,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "6",
             "varName": "maxSpeed",
             "varType": 0
         },
@@ -166,7 +166,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".25",
+            "value": ".5",
             "varName": "maxSpeedIncrement",
             "varType": 0
         },
@@ -180,7 +180,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".005",
+            "value": ".0275",
             "varName": "accelerationIncrement",
             "varType": 0
         },
@@ -194,7 +194,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".0025",
+            "value": "0.025",
             "varName": "slowRatioIncrement",
             "varType": 0
         },
@@ -211,34 +211,6 @@
             "value": "1",
             "varName": "forceIncrement",
             "varType": 0
-        },
-        {
-            "id": "0702c733-8bad-458b-ab1d-86bdc6d8329c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "2",
-            "varName": "outsideRoomBoost",
-            "varType": 1
-        },
-        {
-            "id": "e3ba0ef4-052a-40e2-b294-14d128f3f71a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "outsideRoom",
-            "varType": 3
         },
         {
             "id": "7fe779ae-4df0-4660-8c01-b9b88073d77f",

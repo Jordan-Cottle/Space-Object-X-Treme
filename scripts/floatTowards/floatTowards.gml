@@ -6,13 +6,13 @@ var increment = argument2;
 var maxSpeed = argument3;
 
 with(source){
-	var angle = point_direction(x, y, target.x, target.y);
+	var dir = point_direction(x, y, target.x, target.y);
 
 	// Calculate vspeed
-	vspeed += -dsin(angle) * increment;
+	vspeed += -dsin(dir) * increment;
 
 	// Calculate hspeed
-	hspeed += dcos(angle) * increment;
+	hspeed += dcos(dir) * increment;
 	
 	vspeed = clamp(vspeed, -maxSpeed, maxSpeed);
 	hspeed = clamp(hspeed, -maxSpeed, maxSpeed);
