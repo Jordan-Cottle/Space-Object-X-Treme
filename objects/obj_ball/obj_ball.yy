@@ -83,6 +83,26 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
+        },
+        {
+            "id": "c1762ab8-d098-4a20-90f7-9c4fef91ed39",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
+        },
+        {
+            "id": "5245ff43-1658-4989-9d3b-9487964a0b23",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "85a81a22-d469-4132-8a72-09ddf7669269"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -182,7 +202,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "45",
             "varName": "capturedDuration",
             "varType": 0
         },
@@ -224,7 +244,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
+            "value": "False",
             "varName": "debug",
             "varType": 3
         },
@@ -255,6 +275,34 @@
             "value": "0",
             "varName": "gameStarted",
             "varType": 3
+        },
+        {
+            "id": "d84fbe9d-33c4-4e9d-b228-11414e9c03d0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "recentHit",
+            "varType": 3
+        },
+        {
+            "id": "1a2a79f2-d67a-4dd9-9f2b-a292b0973693",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "hitDelay",
+            "varType": 1
         }
     ],
     "solid": false,

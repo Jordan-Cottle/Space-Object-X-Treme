@@ -5,10 +5,16 @@ if(!gameStarted){ //don't move until game is started
 // check for boost input
 var bumperDown = gamepad_button_check(gamePadIndex, gp_shoulderr) || gamepad_button_check(gamePadIndex, gp_shoulderl);
 if(bumperDown){
+	if(velocity < baseSpeed){
+		velocity = baseSpeed;	
+	}
 	velocity += boostOverTime;
 }else{
 	velocity = baseSpeed;	
 }
+
+// cap player speed to maxSpeed
+velocity = min(maxSpeed, velocity);
 
 // get axis input and compute direction values
 var hAxis = gamepad_axis_value(gamePadIndex, gp_axislh);
@@ -33,7 +39,7 @@ if(abs(hAxis) || abs(vAxis)){
 	}
 	// update sprite
 	sprite_index = moving;
-} else{ // no input, don't move
+} else if (!bumperDown){ // no input, don't move
 	velocity = 0;
 	hspeed = 0;
 	vspeed = 0;
@@ -42,7 +48,7 @@ if(abs(hAxis) || abs(vAxis)){
 
 var triggerDown = gamepad_button_check(gamePadIndex, gp_shoulderrb) || gamepad_button_check(gamePadIndex, gp_shoulderlb);
 if(triggerDown){
-	force = velocity + 10;
+	force = velocity * 1.75;
 }else{
 	force = velocity * .75;	
 }
@@ -50,6 +56,9 @@ if(triggerDown){
 if(velocity > 0){
 	createParticle(obj_fire, direction + irandom_range(-10, 10), -random(velocity), irandom(15)+10);	
 }
+
+
+
 
 // 'cheat' to move ball to player
 if(gamepad_button_check(gamePadIndex, gp_select)){
